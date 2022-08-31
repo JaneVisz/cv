@@ -210,7 +210,7 @@ a {
 }
 
 a:hover {
-  color: #cbc5ea;
+  color: #bcc1ba;
   text-decoration: none;
 }
 
@@ -302,13 +302,26 @@ skills:not(:last-child) {
     width: 85%;
   }
 }
+
+/* 5. ability, Adding css animation */
+
+#creativity-bar {
+  animation: creativity-fill 2s forwards;
+}
+
+@keyframes creativity-fill {
+  100% {
+    width: 88%;
+  }
+}
 /* ----------------------- IMAGES ------------------------*/
 
 .cartoon_img {
-  position: relative;
+  position: absolute;
+  position: fixed;
   border-radius: 50%;
-  top: 10px;
-  left: 48px;
+  right: 0px;
+  bottom: 0px;
   width: 150px;
   height: auto;
 }
