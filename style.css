@@ -388,3 +388,34 @@ button {
     width: 70%;
   }
 }
+
+/* -------------------------------------- hover text --------------------------------------*/
+
+.hovertext {
+  position: relative;
+  /* border-bottom: 1px dotted black; */
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 200px;
+  height: 350px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
