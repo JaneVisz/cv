@@ -400,8 +400,8 @@ button {
   content: attr(data-hover);
   visibility: hidden;
   opacity: 0;
-  width: 200px;
-  height: 420px;
+  width: 420px;
+  height: 250px;
   background-color: black;
   color: #fff;
   text-align: left;
@@ -411,8 +411,9 @@ button {
 
   position: absolute;
   z-index: 1;
-  left: 0;
-  top: 110%;
+  left: 50px;
+  top: -200px;
+  /* top: 110%; */
 }
 
 .hovertext:hover:before {
