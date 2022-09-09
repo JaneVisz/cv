@@ -69,7 +69,7 @@ body {
   /* border-radius: 50%; */
   border-radius: 20px;
   /* border: 6px solid #BEA8A7; */
-  border: 4px solid black;
+  /* border: 4px solid black; */
   margin-top: 20px;
   justify-content: center;
 }
@@ -248,7 +248,7 @@ span {
   width: 10px;
   height: 7px;
   border-radius: 10px;
-  background-color: #cbc5ea;
+  background-color: #BF9ACA;
 }
 
 skills:not(:last-child) {

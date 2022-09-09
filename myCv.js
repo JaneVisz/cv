@@ -9,7 +9,7 @@ let massChart = new Chart(myChart, {
         label: "My time",
         data: [28.33, 28.33, 28.33, 10, 5],
         // backgroundColor: 'green'
-        backgroundColor: ["#cbc5ea", "#bcc1ba", "white", "#d2cbcb", "#ECCFC3"],
+        backgroundColor: ["#BF9ACA", "#f7ebec", "white", "#D9B8C4", "#ECCFC3"],
         fontColor: "black",
         borderColor: "transparent",
         hoverBorderWidth: 1,
