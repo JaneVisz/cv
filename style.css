@@ -458,7 +458,7 @@ button {
   height: 150px;
   background-color: white;
   color: black;
-  text-align: juslefttify;
+  text-align: left;
   border-radius: 5px;
   padding: 5px 10px;
   transition: opacity 1s ease-in-out;
