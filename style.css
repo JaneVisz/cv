@@ -248,7 +248,7 @@ span {
   width: 10px;
   height: 7px;
   border-radius: 10px;
-  background-color: #BF9ACA;
+  background-color: #bf9aca;
 }
 
 skills:not(:last-child) {
@@ -431,4 +431,47 @@ button {
   height: 70px;
   border-radius: 50%;
   border: 3px solid blue;
+}
+
+/* --------------------------------------info logo --------------------------------------*/
+.img_logoInfo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  height: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* -------------------------------------- hover text --------------------------------------*/
+.hovertext-info {
+  position: relative;
+  /* border-bottom: 1px dotted black; */
+}
+
+.hovertext-info:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 250px;
+  height: 150px;
+  background-color: white;
+  color: black;
+  text-align: juslefttify;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: opacity 1s ease-in-out;
+
+  position: fixed;
+
+  z-index: 1;
+  left: 0px;
+  bottom: 0px;
+  /* top: 110%; */
+}
+
+.hovertext-info:hover:before {
+  opacity: 1;
+  visibility: visible;
 }
