@@ -4,20 +4,15 @@
   box-sizing: border-box;
 }
 
-html {
-  /* height: -webkit-fill-available; */
-  width: -webkit-fill-available;
-}
 body {
   background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  min-width: 100vh;
   margin: 0;
   font-family: "Catamaran", sans-serif;
-  /* height: -webkit-fill-available; */
-  width: -webkit-fill-available;
 }
 
 .both_pages {
@@ -33,6 +28,7 @@ body {
   /* A4 size */
   width: 210mm;
   height: 297mm;
+
   background: white;
 }
 
